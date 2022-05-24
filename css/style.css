@@ -1,0 +1,99 @@
+/* Regola di reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg');
+    width: 60%;
+    margin: 0 auto;
+}
+
+#logo {
+    height: 100px;
+    vertical-align: middle;
+}
+
+#logo-text {
+    color: #fff;
+    font-size: 25px;
+    vertical-align: middle;
+}
+
+#count {
+    font-size:25px;
+    color:#fff;
+    line-height: 50px;
+    margin-top:20px;
+}
+
+#unread-count {
+    display: inline-block;
+    background-color: orange;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+header {
+    margin: 20px 0px;
+}
+
+.header-logo {
+    margin-bottom:20px;
+}
+
+.header-bottom {
+    margin-top:20px;
+}
+
+main {
+    margin: 20px 0px;
+}
+
+.email-row {
+    border: solid 1px #000;
+    padding: 5px;
+}
+
+.read {
+    background-color: #ccc;
+}
+
+.unread {
+    background-color: #fff;
+}
+
+.email-text {
+    color: #666;
+}
+
+.email-text:before {
+    content: ' - ';
+}
+
+.email-text:after {
+    content: '...';
+}
+
+.star:after {
+    content: '\2605';
+}
+
+
+footer {
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+}
+
+.powered-by {
+    font-size: 16px;
+    font-style: italic;
+}
