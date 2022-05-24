@@ -13,13 +13,18 @@ body {
 }
 
 #logo {
+    /* questa altezza imposta la dimensione dell'immagine di logo, ed implicitamente regola la dimensione di .header-logo */
     height: 100px;
+
+    /* allinea #logo-text verticalmente a metà rispetto al contenitore padre, .header-logo */
     vertical-align: middle;
 }
 
 #logo-text {
     color: #fff;
     font-size: 25px;
+
+    /* allinea #logo-text verticalmente a metà rispetto al contenitore padre, .header-logo */
     vertical-align: middle;
 }
 
@@ -34,10 +39,15 @@ body {
     display: inline-block;
     background-color: orange;
     width: 50px;
+
+    /* height identica alla line-height di #count permettono il trucco dell'allineamento verticale!*/
     height: 50px;
+
     border-radius: 50%;
     text-align: center;
-    vertical-align: middle;
+
+    /* con vertical-align: middle; allinei verticalmente tutto il pallino arancio al testo di #count */
+    vertical-align: middle; 
 }
 
 header {
